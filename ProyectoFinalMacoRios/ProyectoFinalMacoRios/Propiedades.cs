@@ -11,7 +11,7 @@ namespace ProyectoFinalMacoRios
         string CodigoPropiedad;
         int AreaPropiedad;
         string NitPropietario;
-        string PorcentajeGastoPorZona;
+        List<string> PorcentajesGastoPorZona;
         string InfoTipoPropiedad;
         int NumeroDormitorios;
         string NombreComercial;
@@ -71,18 +71,7 @@ namespace ProyectoFinalMacoRios
             }
         }
 
-        public string PorcentajeGastoPorZona1
-        {
-            get
-            {
-                return PorcentajeGastoPorZona;
-            }
-
-            set
-            {
-                PorcentajeGastoPorZona = value;
-            }
-        }
+       
 
         public string InfoTipoPropiedad1
         {
@@ -159,6 +148,19 @@ namespace ProyectoFinalMacoRios
             set
             {
                 Bodega = value;
+            }
+        }
+
+        public List<string> PorcentajesGastoPorZona1
+        {
+            get
+            {
+                return PorcentajesGastoPorZona;
+            }
+
+            set
+            {
+                PorcentajesGastoPorZona = value;
             }
         }
     }
