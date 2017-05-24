@@ -13,9 +13,17 @@
                 <asp:Label ID="Label1" runat="server" Text="ESTADISTICAS"></asp:Label>
             </p>
             <p>
-                <asp:GridView ID="GridView1" runat="server">
-                </asp:GridView>
+                <asp:Label ID="Label2" runat="server" Text="Nombre Comunidad:"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
             </p>
+            <p>
+                <asp:Label ID="Label4" runat="server" Text="Numero Propiedades:"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+            </p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
             <p>
                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Mostrar Resumen" />
             </p>
