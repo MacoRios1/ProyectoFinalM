@@ -10,18 +10,21 @@
         <div class="col-md-4">
             <h2>Resumen</h2>
             <p>
-                <asp:Label ID="Label1" runat="server" Text="ESTADISTICAS"></asp:Label>
+                <asp:GridView ID="GridView1" runat="server">
+                </asp:GridView>
             </p>
             <p>
-                <asp:Label ID="Label2" runat="server" Text="Nombre Comunidad:"></asp:Label>
-                <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                <asp:GridView ID="GridView2" runat="server">
+                </asp:GridView>
             </p>
             <p>
-                <asp:Label ID="Label4" runat="server" Text="Numero Propiedades:"></asp:Label>
-                <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                <asp:GridView ID="GridView3" runat="server">
+                </asp:GridView>
             </p>
             <p>
-                &nbsp;</p>
+                <asp:GridView ID="GridView4" runat="server">
+                </asp:GridView>
+            </p>
             <p>
                 &nbsp;</p>
             <p>

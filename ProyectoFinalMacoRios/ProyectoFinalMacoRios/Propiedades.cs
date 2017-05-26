@@ -13,11 +13,13 @@ namespace ProyectoFinalMacoRios
         string NitPropietario;
         List<string> PorcentajesGastoPorZona;
         string InfoTipoPropiedad;
-        int NumeroDormitorios;
+        int NumeroDormitorios; //hasta aca
+
         string NombreComercial;
         string ActividadComercial;
         string EstadoGaraje;
         string Bodega;
+        string linea8;
 
         public string TipoPropiedad1
         {
@@ -161,6 +163,19 @@ namespace ProyectoFinalMacoRios
             set
             {
                 PorcentajesGastoPorZona = value;
+            }
+        }
+
+        public string Linea8
+        {
+            get
+            {
+                return linea8;
+            }
+
+            set
+            {
+                linea8 = value;
             }
         }
     }
